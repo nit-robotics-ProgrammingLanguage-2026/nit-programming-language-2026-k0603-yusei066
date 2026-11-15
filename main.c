@@ -5,7 +5,7 @@ int main(void)
     int n;
     int i;
     long sum = 0;
-    scanf("%ld", &n);
+    scanf("%d", &n);
     if (n < 0)
     {
         printf("NG");
@@ -13,8 +13,8 @@ int main(void)
     }
     for (i = 1; i < n + 1; i++)
     {
-        sum ++= i;
+        sum += i;
     }
-    printf("%d", sum);
+    printf("%ld", sum);
     return 0;
 }
